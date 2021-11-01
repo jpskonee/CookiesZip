@@ -1,0 +1,17 @@
+.roadmap-root {
+  .roadmap-left {
+    border-left: 2px purple solid;
+    padding-right: 3rem;
+    @media screen and (max-width: 450px) {
+      padding-right: 0.5rem;
+    }
+  }
+
+  .roadmap-right {
+    border-left: 2px purple solid;
+
+    @media screen and (max-width: 450px) {
+      margin-top: 5rem;
+    }
+  }
+}

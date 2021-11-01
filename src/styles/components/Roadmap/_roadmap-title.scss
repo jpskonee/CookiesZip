@@ -1,0 +1,24 @@
+.title-div {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  margin-left: -0.5rem;
+  margin-bottom: 1.5rem;
+
+  .title-circle {
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    background: purple;
+  }
+
+  .title-title {
+    margin-left: 0.6rem;
+    margin-top: -1.4rem;
+    background: linear-gradient(80deg, #01cee0, #00ffbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
